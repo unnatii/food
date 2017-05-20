@@ -1,0 +1,63 @@
+#main {
+background-color:#02475D;
+width:100%;
+min-height:700px;
+}  
+
+#bar {
+background-color:#013A4D;
+width:100%;
+min-height:50px;
+}
+
+ul
+{
+list-style-type:none;
+display:block;
+padding:10px 0;
+margin:0;
+width:190px;}
+
+
+li a{
+text-align:center;
+padding:50px 0 50px 0;
+display:block;
+color:#013A4D;
+background-color:#8DB2BF  ;
+
+}
+
+li a:hover
+{
+background-color:#C7E0E8  ;
+color:#02475D;
+}
+
+
+#pizza{
+padding:10px 0 0 0;
+height:120px;
+width:200px;
+}
+#burger{
+padding:0px 0 0 0;
+height:120px;
+width:200px;
+}
+#pasta{
+padding:0px 0 0 0;
+height:120px;
+width:200px;
+}
+#macaroni{
+padding:0px 0 0 0;
+height:120px;
+width:200px;
+}
+#chowmein{
+padding:0px 0 0 0;
+height:120px;
+width:200px;
+}
+
