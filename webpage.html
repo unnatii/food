@@ -8,10 +8,13 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
+<!--font awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <title>
-mypage </title>
-<link rel="icon" sizes="32x32" href="bob.ico">
+Food Facts </title>
+
+<link rel="icon" sizes="32x32" href="spinner.ico">
 
 
 <script >function pizza(){
@@ -24,24 +27,51 @@ document.getElementById('pizza').src='pizza1.jpg';
 
 <section id="main">
 <div id="bar">
+<ul>
+<li><i class="fa fa-spinner " id="icon"></i></li>
+<li><h2><strong>FOOD FACTS</strong></h2></li>
+<li style="float:right"><a class="active" href="#about">SNACKS</a></li>
+<li style="float:right"><a class="active" href="#about">BEVERAGES</a></li>
+<li style="float:right"><a class="active" href="#about">DESSERTS</a></li>
+</ul>
 </div>
+
+
 <div class="col-sm-8">
+<div class="row">
+<img src="images.jpg" id="mainimage">
+</div>
+<div class="row">
+<h2 id="fact">Know some interesting facts about<br> your favourite fast food</h2>
+</div>
+
 </div>
 <div class="col-sm-2">
-<img id="pizza" >
+<img src="pizza.jpg"id="pizza" >
 <img src="burger.jpg" id="burger">
 <img src="pasta.jpg" id="pasta">
 <img src="macaroni.jpg" id="macaroni">
 <img src="chowmein.jpg"id="chowmein">
 
 </div>
-<div class="col-sm-2">
+<div class="col-sm-2" id="side">
 <ul>
-<li><a  href="#" onmouseover=pizza()><strong>PIZZA</strong></a></li>
-<li><a href="#"><strong>BURGER</strong></a></li>
-<li><a href="#"><strong>PASTA</strong></a></li>
-<li><a href="#"><strong>MACARONI</strong></a></li>
-<li><a href="#"><strong>CHOWMEIN</strong></a></li>
+<li><a  href="#" onmouseover="document.getElementById('pizza').src='pizza1.jpg'" 
+                 onmouseout="document.getElementById('pizza').src='pizza.jpg'"
+                 onclick="document.getElementById('mainimage').src='pizza1.jpg'">
+                                                                                 <strong>PIZZA</strong></a></li>
+<li><a href="#" onmouseover="document.getElementById('burger').src='burger1.jpg'" 
+                 onmouseout="document.getElementById('burger').src='burger.jpg'"
+                 onclick="document.getElementById('mainimage').src='burger1.jpg'" ><strong>BURGER</strong></a></li>
+<li><a href="#" onmouseover="document.getElementById('pasta').src='pasta1.jpg'" 
+                 onmouseout="document.getElementById('pasta').src='pasta.jpg'"
+                 onclick="document.getElementById('mainimage').src='pasta1.jpg'"><strong>PASTA</strong></a></li>
+<li><a href="#" onmouseover="document.getElementById('macaroni').src='macaroni1.jpg'" 
+                 onmouseout="document.getElementById('macaroni').src='macaroni.jpg'"
+                onclick="document.getElementById('mainimage').src='macaroni1.jpg'"><strong>MACARONI</strong></a></li>
+<li><a href="#" onmouseover="document.getElementById('chowmein').src='chowmein1.jpg'" 
+                 onmouseout="document.getElementById('chowmein').src='chowmein.jpg'"
+               onclick="document.getElementById('mainimage').src='chowmein1.jpg'"><strong>CHOWMEIN</strong></a></li>
 </ul>
 </div>
 </section>
