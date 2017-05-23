@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="./webpage.css">
+<!--font awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
+<title>
+Food Facts-beverage </title>
+
+<link rel="icon" sizes="32x32" href="spinner.ico">
+<script>
+$(document).ready(function(){
+    $("#tea").click(function(){
+        $("#tea").animate({
+            opacity:'1',
+            height: '350px',
+            width: '500px',
+            padding:'150px 0 0 300px',
+            position:'fixed'
+        });
+    });
+});
+
+</script>
+
+
+</head>
+<body>
+ 
+
+<section id="main">
+<div id="bar">
+<ul>
+<li><i class="fa fa-spinner fa-spin" id="icon"></i></li>
+<li><h2><strong>FOOD FACTS</strong></h2></li>
+
+<li style="float:right"><a class="active" href="webpage.html">SNACKS</a></li>
+<li style="float:right"><a class="active" href="#about">BEVERAGES</a></li>
+<li style="float:right"><a class="active" href="main.html">HOME</a></li>
+</ul>
+</div>
+
+<div class="col-sm-1" id="sidebev">
+<ul>
+<li><img src="tea.jpg" id="tea"></li>
+<li><img src="coffee.jpg" id="coffee"></li>
+<li><img src="soup.jpg" id="soup"></li>
+</div>
+<div class="col-sm-11">
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
