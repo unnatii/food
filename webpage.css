@@ -21,12 +21,12 @@ min-height:700px;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 45px 25px 0px;
+    padding: 14px 45px 30px 20px;
     text-decoration: none;
     letter-spacing: 2px;
 }
 #bar li a:hover {
-    background-color: #6E94A0;
+    background-color: #2B4E59  ;
 }
 #icon
 {
@@ -45,7 +45,7 @@ height:400px;
 width:700px;
 padding:100px 0px 0px 150px;
 }
-.row h2{
+#snackline h2{
 color:white;
 letter-spacing:2px;
 padding:0 0 0 150px;
@@ -80,12 +80,12 @@ color:#02475D;
 
 #pizza{
 padding:10px 0 0 0;
-height:120px;
+height:130px;
 width:200px;
 }
 #burger{
 padding:0px 0 0 0;
-height:120px;
+height:125px;
 width:200px;
 }
 #pasta{
@@ -103,4 +103,78 @@ padding:0px 0 0 0;
 height:120px;
 width:200px;
 }
+
+#centerimg{
+font-size:150px;
+color:white;
+padding:100px 0 0px 450px;}
+
+#mainline {
+text-align:center;
+padding:20px;
+color:white;
+letter-spacing:2px;
+word-spacing:15px;
+font-family: "Times New Roman", Times, serif;
+line-height:40px;
+}
+
+#pizza1{
+padding:10px 0 0 0;
+height:100px;
+width:150px;
+}
+#burger1{
+padding:0px 0 0 0;
+height:100px;
+width:150px;
+}
+#pasta1{
+padding:0px 0 0 0;
+height:100px;
+width:150px;
+}
+#macaroni1{
+padding:0px 0 0 0;
+height:100px;
+width:150px;
+}
+#chowmein1{
+padding:0px 0 0 0;
+height:100px;
+width:150px;
+}
+
+#tea{
+width:150px;
+height:150px;
+opacity:0.5;
+position:relative;
+}
+#coffee{
+width:150px;
+height:150px;
+opacity:0.5;
+position:absolute;
+}
+#soup{
+width:150px;
+height:150px;
+opacity:0.5;
+position:relative;
+}
+
+#sidebev ul
+{
+list-style-type:none;
+padding:0 0;
+margin:0;
+width:190px;}
+
+
+#sidebev li {
+padding:0px 0 0px 0;
+
+}
+
 
